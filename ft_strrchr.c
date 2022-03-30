@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: malatini <malatini@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/05 19:37:45 by mahautlatin       #+#    #+#             */
-/*   Updated: 2021/01/09 17:08:25 by malatini         ###   ########.fr       */
+/*   Updated: 2022/03/30 15:33:05 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,11 @@
 ** Therefore if c is `\0', the functions locate the terminating `\0'.
 ** LIBC FUNCTION.
 */
-
 char	*ft_strrchr(const char *s, int c)
 {
 	int i;
+	if (!s)
+		return (NULL);
 
 	i = (int)ft_strlen((char *)s);
 	while (i >= 0)
