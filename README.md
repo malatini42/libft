@@ -1,5 +1,5 @@
 # libft
-Libft (42 cursus) 2020-2021
+📚 Libft (42 cursus) 2020-2021
 
 - Current Status	: finished.
 - Result			: 115%
