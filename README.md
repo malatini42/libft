@@ -16,3 +16,12 @@ Don't forget to delete the .o files when pushing your project.
 This is my libft project from the 42 cursus,
 need help:
 malatini@student.42.fr
+
+```sh
+/* Commande pour compiler un fichier avec la lib */
+gcc -L. -lft file.c
+
+/* Commande pour créer une lib */
+ar rcs ${NAME_LIB} ${OBJS}  
+
+```
