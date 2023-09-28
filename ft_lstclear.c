@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/20 15:55:59 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 11:44:18 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:13:32 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 void	ft_lstclear(t_list **lst, void (*del)(void*))
 {

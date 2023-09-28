@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/10 23:11:04 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 11:44:52 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:14:12 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 void	*ft_memset(void *dest, int ch, size_t count)
 {

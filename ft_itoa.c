@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 22:16:01 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 11:56:14 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:13:21 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Allocates and returns a fresh string ending with a '\0'.

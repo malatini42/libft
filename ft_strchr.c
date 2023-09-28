@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 22:47:42 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 11:45:10 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:14:32 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Locates the first occurence of c in s.

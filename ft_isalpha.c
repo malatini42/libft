@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/02 21:14:17 by mahautlatin       #+#    #+#             */
-/*   Updated: 2023/09/28 11:05:52 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:12:36 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Tests for any character for which isupper(3) or islower(3) is true.

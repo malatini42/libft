@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/05 20:46:27 by mahautlatin       #+#    #+#             */
-/*   Updated: 2023/09/28 11:45:42 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:14:57 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Compares not more than n characters.

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: malatini <mahaut.latinis@essca.eu>         +#+  +:+       +#+        */
+/*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 22:08:01 by malatini          #+#    #+#             */
-/*   Updated: 2020/09/10 22:38:53 by malatini         ###   ########.fr       */
+/*   Updated: 2023/09/28 13:13:07 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Tests for any character between 0 and octal 0177 inclusive.

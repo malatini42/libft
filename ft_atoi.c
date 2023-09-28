@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/10 09:17:05 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 11:43:38 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:12:49 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Converts the initial portion of the string to its int representation.

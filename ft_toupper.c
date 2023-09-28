@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: malatini <mahaut.latinis@essca.eu>         +#+  +:+       +#+        */
+/*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/05 16:32:10 by mahautlatin       #+#    #+#             */
-/*   Updated: 2020/09/10 23:24:26 by malatini         ###   ########.fr       */
+/*   Updated: 2023/09/28 13:15:25 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** converts a lower-case letter to the corresponding upper-case letter.

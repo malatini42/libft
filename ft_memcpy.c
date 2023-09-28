@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/09 16:22:15 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 11:44:47 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:14:05 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 **	Copies n bytes from memory area src to memory area dst.

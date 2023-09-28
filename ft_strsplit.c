@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 14:28:26 by mahautlatin       #+#    #+#             */
-/*   Updated: 2023/09/28 12:05:07 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:15:09 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Allocates and returns an array of fresh strings.

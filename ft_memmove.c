@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/10 23:09:44 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 11:53:29 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:14:10 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Copies len bytes from string src to string dst.

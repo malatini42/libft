@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 22:00:23 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 11:43:43 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:12:52 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Writes n zeroed bytes to the string s.

@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 22:43:08 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 11:45:04 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:14:26 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Outputs the string ’s’ to the given file descriptor.

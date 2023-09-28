@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 22:27:58 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 12:05:29 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:14:03 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Compares byte string s1 against byte string s2.

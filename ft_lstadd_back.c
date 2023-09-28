@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 22:18:07 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 11:39:11 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:13:25 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Adds the element ’new’ at the end of the list.

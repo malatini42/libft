@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 22:20:56 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 12:06:11 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:13:52 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Allocates and return a new element

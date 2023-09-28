@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 23:07:24 by mahautlatin       #+#    #+#             */
-/*   Updated: 2023/09/28 11:45:27 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:14:47 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Concatenate strings with the same input parameters and output result.

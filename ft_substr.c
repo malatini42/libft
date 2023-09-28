@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 17:36:31 by mahautlatin       #+#    #+#             */
-/*   Updated: 2023/09/28 11:59:42 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:15:20 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Allocated and returns a substring from the string 's'.

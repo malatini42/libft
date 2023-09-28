@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/05 19:58:37 by mahautlatin       #+#    #+#             */
-/*   Updated: 2023/09/28 11:38:46 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:15:01 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Locates the first occurrence of the string needle in the string haystack,

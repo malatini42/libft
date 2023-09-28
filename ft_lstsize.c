@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 21:42:49 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 11:44:33 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:13:55 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Counts the number of elements in a list.

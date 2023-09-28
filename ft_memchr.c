@@ -6,12 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 22:26:22 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 12:00:09 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:14:00 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
+#include "./include/libft.h"
 /*
 ** Locates the first occurence of c (converted to an unsigned char).
 ** LIBC FUNCTION.

@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/05 22:53:39 by mahautlatin       #+#    #+#             */
-/*   Updated: 2023/09/28 12:03:50 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:14:44 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Allocates (with malloc(3)) and returns a new string.

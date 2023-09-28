@@ -6,11 +6,11 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 22:54:45 by mahautlatin       #+#    #+#             */
-/*   Updated: 2023/09/28 11:59:19 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 13:14:40 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./include/libft.h"
 
 /*
 ** Allocates memory for a copy of s1, does the copy and returns a point to it.
