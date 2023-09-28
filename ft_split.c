@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: malatini <malatini@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 14:28:26 by mahautlatin       #+#    #+#             */
-/*   Updated: 2021/02/21 12:59:31 by malatini         ###   ########.fr       */
+/*   Updated: 2023/09/28 12:01:54 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,9 +38,9 @@ char	*ft_strcpyt(char *str, char c)
 	return (dest);
 }
 
-int		cw(char *str, char c)
+int	cw(char *str, char c)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (*str)
@@ -67,7 +67,8 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	str = (char *)s;
 	i = 0;
-	if (!(dest = (char **)malloc(sizeof(char *) * (cw(str, c) + 1))))
+	dest = (char **)malloc(sizeof(char *) * (cw(str, c) + 1));
+	if (!dest)
 		return (NULL);
 	while (*str)
 	{

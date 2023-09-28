@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: malatini <malatini@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/10 23:09:44 by malatini          #+#    #+#             */
-/*   Updated: 2021/02/23 07:35:14 by malatini         ###   ########.fr       */
+/*   Updated: 2023/09/28 11:53:29 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,13 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		return (NULL);
 	i = 0;
 	if (d < s)
+	{
 		while (len--)
 		{
 			d[i] = s[i];
 			i++;
 		}
+	}
 	else
 		while (len--)
 			d[len] = s[len];

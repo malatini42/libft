@@ -6,7 +6,7 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/05 19:37:45 by mahautlatin       #+#    #+#             */
-/*   Updated: 2022/03/30 15:33:05 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/09/28 12:00:49 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,10 +20,10 @@
 */
 char	*ft_strrchr(const char *s, int c)
 {
-	int i;
+	int	i;
+
 	if (!s)
 		return (NULL);
-
 	i = (int)ft_strlen((char *)s);
 	while (i >= 0)
 	{

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: malatini <malatini@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/10 15:33:29 by malatini          #+#    #+#             */
-/*   Updated: 2021/01/10 15:40:19 by malatini         ###   ########.fr       */
+/*   Updated: 2023/09/28 11:57:56 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 
 	if (!s || !f)
 		return (NULL);
-	if (!(fresh = (char *)malloc(sizeof(char) * (ft_strlen(s) + 1))))
+	fresh = (char *)malloc(sizeof(char) * (ft_strlen(s) + 1));
+	if (!fresh)
 		return (NULL);
 	i = 0;
 	while (s[i])

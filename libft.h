@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: malatini <malatini@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/10 20:44:11 by malatini          #+#    #+#             */
-/*   Updated: 2021/02/20 16:20:50 by malatini         ###   ########.fr       */
+/*   Updated: 2023/09/28 12:03:25 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 # include <string.h>
 # include <stdio.h>
 
-typedef struct			s_list
+typedef struct s_list
 {
 	void				*content;
 	struct s_list		*next;

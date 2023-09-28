@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: malatini <mahaut.latinis@essca.eu>         +#+  +:+       +#+        */
+/*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 14:28:26 by mahautlatin       #+#    #+#             */
-/*   Updated: 2020/09/10 23:22:48 by malatini         ###   ########.fr       */
+/*   Updated: 2023/09/28 12:05:07 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 ** NON STANDARD FUNCTION.
 */
 
-static int		count_words(char const *s, char c)
+static int	count_words(char const *s, char c)
 {
 	int	i;
 	int	count;
@@ -37,7 +37,7 @@ static int		count_words(char const *s, char c)
 	return (count);
 }
 
-static char		*custo_strdrup(char const *s, char c)
+static char	*custo_strdrup(char const *s, char c)
 {
 	char	*str;
 	int		i;
@@ -46,7 +46,8 @@ static char		*custo_strdrup(char const *s, char c)
 	i = 0;
 	while (s[i] != c)
 		i++;
-	if (!(str = (char *)malloc(sizeof(char) * (i + 1))))
+	str = (char *)malloc(sizeof(char) * (i + 1));
+	if (!str)
 		return (NULL);
 	j = 0;
 	while (j < i)
@@ -58,13 +59,14 @@ static char		*custo_strdrup(char const *s, char c)
 	return (str);
 }
 
-char			**ft_strsplit(char const *s, char c)
+char	**ft_strsplit(char const *s, char c)
 {
 	char	**strs;
 	int		i;
 	int		j;
 
-	if (!(strs = (char **)malloc(sizeof(char *) * (count_words(s, c) + 1))))
+	strs = (char **)malloc(sizeof(char *) * (count_words(s, c) + 1));
+	if (!strs)
 		return (NULL);
 	i = 0;
 	j = 0;

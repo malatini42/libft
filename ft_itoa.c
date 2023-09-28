@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: malatini <malatini@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 22:16:01 by malatini          #+#    #+#             */
-/*   Updated: 2021/01/10 10:51:40 by malatini         ###   ########.fr       */
+/*   Updated: 2023/09/28 11:56:14 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@
 ** NON STANDARD FUNCTION.
 */
 
-static int		n_size(int n)
+static int	n_size(int n)
 {
-	int i;
+	int	i;
 
 	i = 1;
 	if (n < 0)
@@ -37,7 +37,7 @@ static int		n_size(int n)
 	return (i);
 }
 
-char			*create_string(char *str, long nb, long length, long sign)
+char	*create_string(char *str, long nb, long length, long sign)
 {
 	str[length] = '\0';
 	while (length > 0)
@@ -46,11 +46,13 @@ char			*create_string(char *str, long nb, long length, long sign)
 		nb = nb / 10;
 	}
 	if (sign < 0)
+	{
 		str[length++] = '-';
+	}
 	return (str);
 }
 
-char			*ft_itoa(int n)
+char	*ft_itoa(int n)
 {
 	char	*str;
 	long	length;
@@ -69,8 +71,11 @@ char			*ft_itoa(int n)
 		nb = -nb;
 		sign = -sign;
 	}
-	if (!(str = (char *)malloc(sizeof(char) * (length + 1))))
+	str = (char *)malloc(sizeof(char) * (length + 1));
+	if (!str)
+	{
 		return (NULL);
+	}
 	str = create_string(str, nb, length, sign);
 	return (str);
 }
