@@ -1,0 +1,18 @@
+name: mandatory tests macos
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: mandatory tests
+      run: cd ./tester/; make f;
+      shell: bash
