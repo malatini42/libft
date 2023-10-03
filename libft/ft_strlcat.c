@@ -6,7 +6,7 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 23:07:24 by mahautlatin       #+#    #+#             */
-/*   Updated: 2023/09/28 13:14:47 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/10/03 15:17:36 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@ size_t	ft_strlcat(char *dest, const char *src, size_t dstsize)
 	size_t	dest_length;
 	size_t	source_length;
 
+	if (dstsize == 0)
+		return (0);
 	j = 0;
 	dest_length = ft_strlen(dest);
 	source_length = ft_strlen(src);

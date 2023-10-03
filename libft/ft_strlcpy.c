@@ -6,7 +6,7 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/09 12:25:00 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 13:14:49 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/10/03 15:16:36 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	size_t	src_size;
 	size_t	i;
 
-	if (!src || !dst)
-		return (0);
 	src_size = ft_strlen(src);
 	if (dstsize == 0)
 		return (src_size);

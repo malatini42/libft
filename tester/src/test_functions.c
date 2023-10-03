@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   test_functions.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfunyu <mfunyu@student.42tokyo.jp>         +#+  +:+       +#+        */
+/*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/17 17:42:18 by alelievr          #+#    #+#             */
-/*   Updated: 2022/10/30 09:25:38 by ladloff          ###   ########.fr       */
+/*   Updated: 2023/10/03 15:26:28 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -1562,7 +1562,7 @@ void			test_ft_calloc_size(void *ptr) {
 	SET_EXPLANATION("your calloc did not allocate the good size");
 
 	SANDBOX_RAISE(
-			int		size;
+			int		size = _MALLOC_SIZE;
             int     count = 42 * 3;
 
 			MALLOC_SIZE;
