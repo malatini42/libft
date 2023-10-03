@@ -1,7 +1,7 @@
 # Libft 📚
 Libft 📚 2021-2022 (Common Core)
 
-- Current Status	: finished.
+- Current Status	: validated.
 - Result			: 115% (maximum grade at validation date), use to pass all testers.
 
 Disclaimer : this project (main functions) has not been updated since its validation (24/02/2021).
