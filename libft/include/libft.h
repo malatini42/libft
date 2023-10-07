@@ -6,7 +6,7 @@
 /*   By: mahautlatinis <mahautlatinis@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/10 20:44:11 by malatini          #+#    #+#             */
-/*   Updated: 2023/09/28 13:11:41 by mahautlatin      ###   ########.fr       */
+/*   Updated: 2023/10/07 16:10:50 by mahautlatin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include <libc.h>
 # include <string.h>
 # include <stdio.h>
 
