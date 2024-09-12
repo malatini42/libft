@@ -71,4 +71,7 @@ re: 		fclean all
 norminette:
 			norminette ./libft
 
+test:
+			cd ./tester && make && ./run_test
+
 .PHONY:		bonus all clean fclean re
