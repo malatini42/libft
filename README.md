@@ -5,10 +5,7 @@ Libft 📚 2021-2022 (Common Core)
 - Current Status : validated.
 - Result : 115% (maximum grade at validation date), use to pass all testers.
 
-<video width="320" height="240" controls>
-  <source src="https://youtu.be/Up4B6zOuE0k" type="video/mp4">
-  Votre navigateur ne supporte pas les vidéos HTML5.
-</video>
+[Regarder la vidéo](https://youtu.be/Up4B6zOuE0k)
 
 Commands to run on macOS:
 
