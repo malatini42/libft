@@ -68,4 +68,7 @@ fclean: 	clean
 
 re: 		fclean all
 
+norminette:
+			norminette ./libft
+
 .PHONY:		bonus all clean fclean re
