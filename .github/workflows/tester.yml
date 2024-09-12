@@ -13,5 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: mandatory tests
-        run: cd ./tester/; make f;
+        run: cd ./tester/ && make && ./run_test
         shell: bash
