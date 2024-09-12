@@ -9,7 +9,6 @@ SRCS =		./libft/ft_atoi.c \
 			./libft/ft_tolower.c \
 			./libft/ft_bzero.c \
 			./libft/ft_isascii.c \
-			./libft/ft_memccpy.c \
 			./libft/ft_memmove.c \
 			./libft/ft_putnbr_fd.c \
 			./libft/ft_strdup.c \
