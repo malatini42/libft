@@ -6,7 +6,7 @@ Libft 📚 2021-2022 (Common Core)
 - Result : 115% (maximum grade at validation date), use to pass all testers.
 
 <video width="320" height="240" controls>
-  <source src="chemin/vers/video.mp4" type="video/mp4">
+  <source src="https://youtu.be/Up4B6zOuE0k" type="video/mp4">
   Votre navigateur ne supporte pas les vidéos HTML5.
 </video>
 
